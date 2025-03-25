@@ -1,5 +1,6 @@
 import styles from "./cards.module.css";
 
+
 const Card = ({capa, textoAlt, titulo, ano, detalhes}) => {
     return (
         <div className={styles.trophy}>
