@@ -6,7 +6,7 @@ const Section = ({campeonato, children}) => {
         <section className={styles.newTrophies}>
             <h2>{campeonato}</h2>
             <div className={styles.trophiesGrid}>
-                {children}
+                {children}  
             </div>
         </section>)
 }
